@@ -9,7 +9,7 @@ describe('Demo calculator tests',function()
     {
         //browser.get('https://juliemr.github.io/protractor-demo/');
       Homepage.get('https://juliemr.github.io/protractor-demo/');
-       //browser.sleep(4000);
+       browser.sleep(4000);
         browser.manage().window().maximize();
         Homepage.EnterFirstNumber(5);
         Homepage.EnterSecondNumber(1);

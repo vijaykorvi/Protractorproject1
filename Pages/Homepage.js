@@ -29,7 +29,7 @@ this.ClickOnGoButton = function()
 this.verifyResult = function(result)
 {
     let output= element(by.cssContainingText('.ng-binding',result));
-        expect(output.getText()).toEqual('5');
+        expect(output.getText()).toEqual('7');
     }
 };
 module.exports = new Homepage();
